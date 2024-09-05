@@ -26,7 +26,7 @@ public class GoogleTest {
 //        WebElement username=driver.findElement(By.xpath(""));
 //        WebElement password=driver.findElement(By.xpath(""));
 
-
+//This is feature1
         Properties props=new Properties();
         props.load(GoogleTest.class.getClassLoader().getResourceAsStream("Myproject.properties"));
         String uName=props.getProperty("uName");
